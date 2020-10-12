@@ -149,10 +149,5 @@ func main() {
 					handleTasks(args[1], false, 1)
 				}
 			}
-		} else {
-			println(errmsg)
-		}
-	} else {
-		println(errmsg)
-	}
+		} else { println(errmsg) } } else { println(errmsg)	}
 }
